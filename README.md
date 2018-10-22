@@ -58,8 +58,7 @@ p2=3;
 
 Obtain fast parameter estimates of AB without inference. A vector of $js+p1+p2+2$ parameters is returned:
 
-<img src="https://latex.codecogs.com/gif.latex? $$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1+1,1},\kappa_{0,2},...\kappa_{p2+1,2}$$" /> 
-
+<img src="https://latex.codecogs.com/gif.latex $$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1&plus;1,1},\kappa_{0,2},...\kappa_{p2&plus;1,2}$$" />
 
 ```julia
 par=OrderedLogitparameters(data[:,30].*1.0,js,p1,p2)
