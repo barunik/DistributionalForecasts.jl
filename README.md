@@ -58,9 +58,7 @@ p2=3;
 
 Obtain fast parameter estimates of AB without inference. A vector of $js+p1+p2+2$ parameters is returned:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=$$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1&plus;1,1},\kappa_{0,2},...\kappa_{p2&plus;1,2}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1&plus;1,1},\kappa_{0,2},...\kappa_{p2&plus;1,2}$$" title="$$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1+1,1},\kappa_{0,2},...\kappa_{p2+1,2}$$" /></a>
-
-
+<img src="https://latex.codecogs.com/gif.latex?O_t=\text { $$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1+1,1},\kappa_{0,2},...\kappa_{p2+1,2}$$ } t " /> 
 
 
 ```julia
