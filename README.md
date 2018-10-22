@@ -21,6 +21,9 @@ Pkg.add("Optim")
 
 ## Example: Forecasting dynamic return distributions
 
+Note the full example is available as an interactive [IJulia](https://github.com/JuliaLang/IJulia.jl) notebook [here](https://github.com/barunik/DistributionalForecasts.jl/blob/master/Example_online.ipynb)
+
+
 Load required packages
 
 
