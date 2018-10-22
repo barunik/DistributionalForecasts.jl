@@ -5,7 +5,7 @@
 
 The code has been developed in Julia 0.6.4. version, as a code accompanying the Anatolyev and Barunik (20xx) paper, and provides an estimation and inference for a model forecasting conditional probability distributions of asset returns (henceforth AB model). For further details, see
 
-Anatolyev, S. and Barunik, J. (20xx): *Forecasting dynamic return distributions based on ordered binary choice and  cross-quantile predictability connection*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html)
+Anatolyev, S. and Barunik, J. (20xx): *Forecasting dynamic return distributions based on ordered binary choice and  cross-quantile predictability connection*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html) (Oct 2018)
 
 
 ## Software requirements
@@ -21,7 +21,7 @@ Pkg.add("Optim")
 
 ## Example: Forecasting dynamic return distributions
 
-Note the full example is available as an interactive [IJulia](https://github.com/JuliaLang/IJulia.jl) notebook [here](https://github.com/barunik/DistributionalForecasts.jl/blob/master/Example_online.ipynb)
+Note the full example is available as an interactive [IJulia](https://github.com/JuliaLang/IJulia.jl) notebook [here](https://github.com/barunik/DistributionalForecasts.jl/blob/master/Example.ipynb)
 
 
 Load required packages
@@ -59,6 +59,8 @@ p2=3;
 Obtain fast parameter estimates of AB without inference. A vector of $js+p1+p2+2$ parameters is returned:
 
 $$\delta_{0,1},\delta_{0,2},...,\delta_{0,js},\kappa_{0,1},...\kappa_{p1+1,1},\kappa_{0,2},...\kappa_{p2+1,2}$$
+
+
 
 
 ```julia
@@ -196,4 +198,11 @@ probs=forecastProbs(INS,OOS,js,p1,p2)
 
 ## Statistical Evaluation
 
-A number of statistical tests are implemented in the *main.jl* file. TBD
+A number of statistical tests from Gneiting and Raftery (2007), and Gonzalez-Rivera and Sun (2015) are implemented in the *main.jl* file. 
+
+TBD
+
+Gonzalez-Rivera, G. and Y. Sun (2015). Generalized autocontours: Evaluation of multivari- ate density models. International Journal of Forecasting 31(3), 799–814.
+
+Gneiting, T. and A. Raftery (2007). Strictly proper scoring rules, prediction, and estimation. Journal of American Statistical Association 102 (477), 359–378.
+
