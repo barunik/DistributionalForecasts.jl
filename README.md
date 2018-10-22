@@ -1,19 +1,31 @@
 
-# Forecasting dynamic return distributions
+# DistributionalForecasts.jl
 
-A code accompanying the paper 
+[![GitHub](http://pkg.julialang.org/badges/GitHub_0.6.svg)](http://pkg.julialang.org/detail/GitHub)
 
-Anatolyev, S. and Barunik, J. (20xx): *Forecasting dynamic return distributions based on ordered binary choice and  cross-quantile predictability connection*, unpublished manuscript
+The code has been developed in Julia 0.6.4. version, as a code accompanying the Anatolyev and Barunik (20xx) paper, and provides an estimation and inference for a model forecasting conditional probability distributions of asset returns (henceforth AB model). For further details, see
 
-provides an estimation and inference for a model for forecasting conditional probability distributions of asset returns developed by Anatolyev and Barunik (henceforth AB model).
+Anatolyev, S. and Barunik, J. (20xx): *Forecasting dynamic return distributions based on ordered binary choice and  cross-quantile predictability connection*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html)
+
+
+## Software requirements
+
+[Julia](http://julialang.org/) together with few packages needs to be installed
+
+````julia
+Pkg.add("DataFrames")
+Pkg.add("CSV")
+Pkg.add("GLM")
+Pkg.add("Optim")
+````
+
+## Example: Forecasting dynamic return distributions
 
 Load required packages
 
 
 ```julia
-using DataFrames, CSV, GLM
-using Optim
-using Plots
+using DataFrames, CSV, GLM, Optim 
 
 # load main functions
 include("main.jl");
