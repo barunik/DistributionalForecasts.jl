@@ -5,7 +5,7 @@
 
 The code has been developed in Julia 0.6.4. version, as a code accompanying the Anatolyev and Barunik (20xx) paper, and provides an estimation and inference for a model forecasting conditional probability distributions of asset returns (henceforth AB model). For further details, see
 
-Anatolyev, S. and Barunik, J. (20xx): *Forecasting dynamic return distributions based on ordered binary choice and  cross-quantile predictability connection*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html) (Oct 2018)
+Anatolyev, S. and Barunik, J. (2018): *Forecasting dynamic return distributions based on ordered binary choice and  cross-quantile predictability connection*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html) (Oct 2018)
 
 
 ## Software requirements
