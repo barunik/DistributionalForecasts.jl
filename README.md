@@ -31,7 +31,7 @@ Load required packages
 using DataFrames, CSV, GLM, Optim 
 
 # load main functions
-include("main.jl");
+include("DistributionalForecasts.jl");
 ```
 
 Load example data (returns of XOM)
