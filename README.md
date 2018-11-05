@@ -198,7 +198,7 @@ probs=forecastProbs(INS,OOS,js,p1,p2)
 
 ## Statistical Evaluation
 
-A number of statistical tests from Gneiting and Raftery (2007), and Gonzalez-Rivera and Sun (2015) are implemented in the *main.jl* file. 
+A number of statistical tests from Gneiting and Raftery (2007), and Gonzalez-Rivera and Sun (2015) are implemented in the *DistributionalForecasts.jl* file. 
 
 TBD
 
