@@ -3,9 +3,9 @@
 
 [![GitHub](http://pkg.julialang.org/badges/GitHub_0.6.svg)](http://pkg.julialang.org/detail/GitHub)
 
-The code has been developed in Julia 0.6.4. version, as a code accompanying the Anatolyev and Barunik (2018) paper, and provides an estimation and inference for a model forecasting conditional probability distributions of asset returns (henceforth AB model). For further details, see
+The code has been developed in Julia 0.6.4. version, as a code accompanying the Anatolyev and Barunik (2019) paper, and provides an estimation and inference for a model forecasting conditional probability distributions of asset returns (henceforth AB model). For further details, see
 
-Anatolyev, S. and Barunik, J. (2018): *Forecasting dynamic return distributions based on ordered binary choice, manuscript*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html) (Oct 2018)
+Anatolyev, S. and Barunik, J. (2018): *Forecasting dynamic return distributions based on ordered binary choice, forthcoming, International Journal of Forecasting*, manuscript [available here for download](https://ideas.repec.org/p/arx/papers/1711.05681.html) (Jan 2019)
 
 
 ## Software requirements
